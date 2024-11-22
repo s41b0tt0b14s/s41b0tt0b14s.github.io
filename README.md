@@ -1,1 +1,2 @@
-# s41b0tt0b14s.github.io
+# portfolio/resume
+repo for things about me
