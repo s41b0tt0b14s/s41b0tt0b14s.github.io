@@ -1,0 +1,78 @@
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #sections > div {
+    text-align: center;
+    margin: 0 100px;
+    font-size: 25px
+  }
+
+  #sections > div:not(.name-image-container):hover {
+    color: #ff6464;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    cursor: default;
+  }
+  
+  .image-wrapper img {
+    height: auto;
+    cursor: default;
+    width: 200px
+  }
+
+  .name-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+  }
+
+  .name {
+    font-size: 50px;
+    cursor: default;
+  }
+
+  .link-text {
+    text-align: center;
+    cursor: pointer; /* Pointer for hover */
+    margin: 0 20px;
+    font-size: 30px;
+  }
+
+  .link-text:hover {
+    color: #ff6464; 
+    text-decoration: underline; 
+  }
+
+
+  #sections > a {
+    text-decoration: none;
+    color: inherit; 
+    margin: 0 100px;
+    font-size: 35px;
+    cursor: default;
+  }
