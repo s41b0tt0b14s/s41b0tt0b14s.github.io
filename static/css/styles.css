@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f0eed6;
@@ -59,7 +59,7 @@ body {
 
   .link-text {
     text-align: center;
-    cursor: pointer; /* Pointer for hover */
+    cursor: pointer;
     margin: 0 20px;
     font-size: 30px;
   }
