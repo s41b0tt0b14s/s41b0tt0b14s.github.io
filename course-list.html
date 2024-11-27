@@ -1,1 +1,52 @@
-<div> course-list</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
+    <link rel="manifest" href="static/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="192x192" href="static/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="static/android-chrome-512x512.png">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <title>COURSE LIST</title>
+</head>
+<body>
+    <div class="course-list-container">
+        <h1 class="main-heading">COURSE LIST</h1>
+
+        <div class="sort-container">
+            <label for="sort-by">Sort by:</label>
+            <select id="sort-by">
+                <option value="course-number">COURSE NUMBER (INCREASING)</option>
+                <option value="course-number-reverse">COURSE NUMBER (DECREASING)</option>
+                <option value="date-taken">OLDEST TO LATEST</option>
+                <option value="date-taken-reverse">LATEST TO OLDEST</option>
+            </select>
+        </div>
+
+
+        <div class="course">
+            <h2 class="sub-heading" data-course="1110" data-date="11">CS1110, INTRODUCTION TO PROGRAMMING</h2>
+            <h2 class="sub-heading" data-course="2110" data-date="12">CS2110, SOFTWARE DEVELOPMENTS METHODS</h2>
+            <h2 class="sub-heading" data-course="2120" data-date="21">CS2120, DISCRETE MATH AND THEORY</h2>
+            <h2 class="sub-heading" data-course="2150" data-date="21">CS2150, PROGRAM & DATA REPRESENTATION</h2>
+            <h2 class="sub-heading" data-course="3102" data-date="22">CS3102, THEORY OF COMPUTATION</h2>
+            <h2 class="sub-heading" data-course="3240" data-date="32">CS3240, ADVANCED SOFTWARE DEVELOPMENT</h2>
+            <h2 class="sub-heading" data-course="3330" data-date="31">CS3330, COMPUTER ARCHITECTURE</h2>
+            <h2 class="sub-heading" data-course="3710" data-date="32">CS3710, INTRODUCTION TO CYBERSECURITY</h2>
+            <h2 class="sub-heading" data-course="4102" data-date="22">CS4102, ALGORITHMS</h2>
+            <h2 class="sub-heading" data-course="4457" data-date="42">CS4457, COMPUTER NETWORKS</h2>
+            <h2 class="sub-heading" data-course="4501" data-date="42">CS4501, INTERNET OF THINGS</h2>
+            <h2 class="sub-heading" data-course="4501" data-date="32">CS4501, CRYPTOCURRENCY</h2>
+            <h2 class="sub-heading" data-course="4501" data-date="41">CS4501, PRIVACY IN THE INTERNET AGE</h2>
+            <h2 class="sub-heading" data-course="4501" data-date="41">CS4501, AI-POWERED CYBERSECURITY</h2>
+            <h2 class="sub-heading" data-course="4630" data-date="41">CS4630, DEFENSE AGAINST THE DARK ARTS</h2>
+            <h2 class="sub-heading" data-course="4710" data-date="41">CS4710, ARTIFICIAL INTELLIGENCE</h2>
+            <h2 class="sub-heading" data-course="4730" data-date="42">CS4730, COMPUTER GAME DESIGN</h2>
+            <h2 class="sub-heading" data-course="4760" data-date="42">CS4760, NETWORK SECURITY</h2>
+        </div>
+    </div>
+    <script src="scripts/course-list.js"></script>
+</body>
+</html>
