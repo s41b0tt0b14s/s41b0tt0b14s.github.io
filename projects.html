@@ -17,9 +17,32 @@
         <a href="https://tobiasshaw.xyz" class="back-button">GO BACK</a>
     </div>
 
-    <!-- Link to app page -->
-    <div class="course">
-        <a href="https://app.tobiasshaw.xyz" class="subheading">PERSONAL FINANCE TRACKER</a>
-    </div>
+    <div class="project-list-container">
+        <h1 class="main-heading">PROJECTS</h1>
+
+        <!-- Project 1 -->
+        <div class="project">
+            <h2 class="sub-heading">
+                <a href="https://app.tobiasshaw.xyz" target="_blank">PROJECT 1 / SIMPLE CRUD</a>
+            </h2>
+            <p>
+                <!-- text describing project-->
+                The main goal of this project was to familiarize myself with creating a full application. Frontend is Next.js (built on React), some CSS and JS/TSX. I chose Next.js because I was interested in figuring out how to deploy something with Vercel, and its' tight integration with Vercel seemed appropriate.
+                Backend is using Supabase, a free service that did everything I wanted to do. Serves as authentication (OAuth), database, and storage. Mentioned previously, I used Vercel to host and deploy. Configured DNS settings to point to the Vercel app using a subdomain to get the most out of my money.
+            </p>
+            <p>
+                Must note that I did not have a focus on design/UI at all. That type of stuff doesn't interest me, no matter how hard I try to like it. Maybe I'll revisit at some point to make it look better, or add more features. Try it out, it's very simple-looking and isn't feature rich.
+            </p>
+        </div>
+
+        <div class="project">
+            <h2 class="sub-heading">
+                <a href="https://github.com/s41b0tt0b14s/filehosting-cli" target="_blank"> PROJECT 2 / FILEHOSTING</a>
+            </h2>
+            <p>
+                Written in Rust because it seems thats what everyone wants to talk about. I don't like it very much. I got inspiration to try this project because of an anectdote I read online where someone was contracted to write an enterprise filehosting software for a company. 
+            </p>
+        </div>
+
 </body>
 </html>
