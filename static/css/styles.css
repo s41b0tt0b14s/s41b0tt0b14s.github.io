@@ -85,6 +85,10 @@ body {
     font-size: 50px;
     cursor: default;
   }
+  .email {
+    font-size: 25px;
+    cursor: default;
+  }
 
   .link-text {
     text-align: center;
