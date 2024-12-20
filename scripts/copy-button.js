@@ -9,10 +9,5 @@ document.getElementById("copy-button").addEventListener("click", function() {
 
     const copyIcon = document.getElementById("copy-icon");
     copyIcon.classList.add("animate-red");
-
-  // remove the class after 3 seconds so the animation can be retriggered
-    setTimeout(() => {
-    copyIcon.classList.remove("animate-red");
-    }, 3000);
   });
   

@@ -47,28 +47,6 @@ body {
   height: 20px;
 }
 
-@keyframes turnRed {
-  from {
-    filter: none;
-  }
-  to {
-    filter: brightness(0) saturate(100%) invert(18%) sepia(100%) saturate(7493%) hue-rotate(357deg) brightness(102%) contrast(107%);
-  }
-}
-
-@keyframes turnBlack {
-  from {
-    filter: brightness(0) saturate(100%) invert(18%) sepia(100%) saturate(7493%) hue-rotate(357deg) brightness(102%) contrast(107%);
-  }
-  to {
-    filter: none;
-  }
-}
-
-#copy-icon.animate-red {
-  animation: turnRed 2s forwards;
-  animation: turnBlack 2s forwards;
-}
 
   #container {
     display: flex;
