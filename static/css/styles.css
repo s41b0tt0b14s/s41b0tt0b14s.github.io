@@ -42,6 +42,7 @@ body {
 }
 
 #copy-button img {
+  background-color: #f0eed6;
   width: 20px;
   height: 20px;
 }
