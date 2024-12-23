@@ -14,9 +14,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #ff6464, #f0eed6);
+    background: linear-gradient(45deg, #ff4444, #000000);
     background-size: 200% 200%;
-    animation: waveAnimation 5s ease infinite;
+    animation: waveAnimation 20s ease infinite;
     z-index: -1;
 }
 
@@ -31,20 +31,6 @@ body {
   100% {
       background-position: 0% 0%;
   }
-}
-
-#copy-button {
-  border: none;
-  background-color: #f0eed6;
-  cursor: pointer;
-  margin-left: 8px;
-  padding: 0;
-}
-
-#copy-button img {
-  background-color: #f0eed6;
-  width: 20px;
-  height: 20px;
 }
 
 
@@ -144,9 +130,9 @@ body {
   text-decoration: none; /* Removes underline */
   font-size: 1rem; /* Adjust text size */
   font-weight: bold;
-  color: #000000; /* Blue text */
+  color: #000000; 
   padding: 10px 20px; /* Padding inside the button */
-  border: 2px solid #000000; /* Blue border */
+  border: 2px solid #000000;
   border-radius: 5px; /* Rounded corners */
   background-color: #f0eed6; /* White background */
   transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
@@ -155,4 +141,24 @@ body {
 .back-button:hover {
   background-color: #FF6464; /* Blue background on hover */
   color: black; /* White text on hover */
+}
+
+.copyEmailButton {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none; /* Removes underline */
+  font-size: 1rem; /* Adjust text size */
+  font-weight: bold;
+  color: #000000; 
+  padding: 1px 3px; /* Padding inside the button */
+  border: 1px solid #000000;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f0eed6; /* White background */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.copyEmailButton:hover {
+  background-color: #FF6464;
+  color: black;
 }
