@@ -5,6 +5,8 @@ body {
     background-color: #f0eed6;
     height: 100vh;
     position: relative;
+    width: 100%;
+    overflow-x: hidden;
   }
 
 
